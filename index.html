@@ -17,7 +17,9 @@ L.tileLayer(
 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&copy; ' + mapLink + ' Contributors',
 maxZoom: 18,
-}).addTo(map);
+}).addTo(map)
+var marker = L.marker([26.543837, -78.675758])
+  .addTo(map);
 
 
 </script>
