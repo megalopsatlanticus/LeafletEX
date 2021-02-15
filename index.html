@@ -25,7 +25,12 @@ maxZoom: 18,
 var marker = L.marker([26.543837, -78.675758],
                       {title: 'Ultimate Fighting Showcase'})
   .addTo(map)
-marker.bindPopup("<h2>Ultimate Fighting Showcase</h2>")
+marker.bindPopup('<h2>Ultimate Fighting Showcase</h2>
+                 <ul>
+                 <li><h3>Location: Grand Bahama Sports Complex</h3></li>
+                 <li><h3>Date: February 15th, 2021</h3></li>
+                 <li><a href="https://www.facebook.com/sportsgrandbahama">Link</a></li>
+                 </ul>')
 .openPopup('click');
 
 
